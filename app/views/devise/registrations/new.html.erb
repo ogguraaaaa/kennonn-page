@@ -15,7 +15,7 @@
       <label class="form-text">名前</label>
       <span class="indispensable">必須</span>
     </div>
-    <%= f.text_area :name, class:"input-default", id:"name", maxlength:"40" %>
+    <%= f.text_field :name, class:"input-default", id:"name" %>
     <p class='info-text'>例）山田バスケットボール太郎<br>※フルネーム空白無しで記入</p>
   </div>
   <div class="form-group">
@@ -23,15 +23,23 @@
       <label class="form-text">市区町村</label>
       <span class="indispensable">必須</span>
     </div>
-    <%= f.password_field :city, class:"input-default", id:"city" %>
+    <%= f.text_field :city, class:"input-default", id:"city" %>
     <p class='info-text'>例）東京都港区</p>
+  </div>
+  <div class="form-group">
+    <div class='form-text-wrap'>
+      <label class="form-text">メールアドレス</label>
+      <span class="indispensable">必須</span>
+    </div>
+    <%= f.email_field :email, class:"input-default", id:"email", autofocus: true %>
+    <p class='info-text'>PC・携帯どちらでも可</p>
   </div>
   <div class="form-group">
     <div class='form-text-wrap'>
       <label class="form-text">電話番号</label>
       <span class="indispensable">必須</span>
     </div>
-    <%= f.password_field :number, class:"input-default", id:"number" %>
+    <%= f.text_field :number, class:"input-default", id:"number" %>
     <p class='info-text'>例）08012345678</p>
   </div>
   <div class="form-group">
