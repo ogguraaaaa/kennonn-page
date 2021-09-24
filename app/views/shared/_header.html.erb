@@ -1,0 +1,17 @@
+<%# CSS・・・assets/stylesheets/shared/header.css %>
+<header class='top-page-header'>
+  <div class='nav'>
+    <ul class='lists-left'>
+    </ul>
+    <ul class='lists-right'>
+      <% if user_signed_in?%>
+       <%= link_to current_user.name, "#", class: "btn btn-malformation" %>
+       <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "btn btn-malformation" %>
+      <% else %>
+       <%= link_to '新規登録', new_user_registration_path, class: "btn btn-malformation" %>
+       <%= link_to 'ログイン', new_user_session_path, class: "btn btn-malformation" %>
+      <% end %>
+    </ul>
+  </div>
+</header>
+
