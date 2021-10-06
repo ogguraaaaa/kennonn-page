@@ -1,24 +1,16 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## アプリケーション名
+「kennonn_page」  
+## アプリケーション概要  
+定期的なイベント参加者への、事前検温の要請。  
+代表者のデータ管理、及び提出用フォーマットで表示。
+## 制作背景  
+2つ目的があります。  
+1、事前検温率の改善。2、社会人スポーツサークル代表者の負担軽減。  
+身近な人におきている問題を改善するために作成しました。実際に地元のチームで利用予定。  
+県のコロナ警戒レベルが一定以下になった後、44名と27名の2チームで使用します。  
+## DEMO
+※順次更新  
+## 実装予定の内容  
+※一定程度作成をした段階で記述します
+## DB設計  
+※ER図作成後添付
