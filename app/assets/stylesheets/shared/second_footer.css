@@ -1,7 +1,7 @@
 .second-fotter {
   width: 100%;
   min-width: 800px;
-  height: 10vh;
+  height: 45px;
   background-color: black;
   text-align: center;
   bottom: 0;
@@ -15,5 +15,5 @@
 .footer-link {
   color: #FFF;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 40px;
 }
